@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>상품페이</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Arial', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50">
+
+  <!-- 헤더 + 안전거래 배지 -->
+  <header class="fixed top-0 left-0 w-full bg-black text-white p-4 text-center font-bold text-lg z-50 flex justify-between items-center">
+    <span>상품페이</span>
+    <span class="bg-green-500 px-2 py-1 rounded text-sm">안전거래</span>
+  </header>
+
+  <!-- 배너 이미지 -->
+  <div class="mt-16">
+    <img src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?auto=format&fit=crop&w=1200&q=80" 
+         alt="배너 이미지" class="w-full h-40 object-cover">
+  </div>
+
+  <!-- 상품 리스트 -->
+  <main class="px-4 space-y-4 mt-4">
+
+    <!-- 상품 카드 1 -->
+    <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+      <img src="https://images.unsplash.com/photo-1589721055065-b5a3f6b28c9e?auto=format&fit=crop&w=400&q=80" 
+           alt="라이즈 콘서트" class="w-full rounded-lg mb-2">
+      <p class="text-lg font-bold">라이즈 콘서트 막콘</p>
+      <p class="text-gray-700">가격: 600,000원</p>
+    </div>
+
+    <!-- 상품 카드 2 -->
+    <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+      <img src="https://images.unsplash.com/photo-1599669480342-d1b3de33f88d?auto=format&fit=crop&w=400&q=80" 
+           alt="엔하이픈 쇼케이스" class="w-full rounded-lg mb-2">
+      <p class="text-lg font-bold">엔하이픈 쇼케이스 1차</p>
+      <p class="text-gray-700">가격: 300,000원</p>
+    </div>
+
+    <!-- 상품 카드 3 -->
+    <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center">
+      <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=400&q=80" 
+           alt="킥플립 서울" class="w-full rounded-lg mb-2">
+      <p class="text-lg font-bold">킥플립 서울</p>
+      <p class="text-gray-700">가격: 180,000원</p>
+    </div>
+
+    <!-- 카카오톡 상담 버튼 -->
+    <div class="mt-6 max-w-xs mx-auto w-full">
+      <a href="https://pf.kakao.com/_safegury" target="_blank"
+         class="bg-yellow-400 text-black font-bold py-3 rounded text-center block w-full">
+        상담사 카카오톡 바로가기
+      </a>
+    </div>
+
+  </main>
+
+</body>
+</html>
